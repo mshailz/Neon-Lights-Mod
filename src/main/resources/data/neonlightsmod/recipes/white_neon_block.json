@@ -1,0 +1,18 @@
+{
+  "type":"crafting_shapeless",
+  "ingredients": [
+    {
+    "item":"minecraft:glow_ink_sac"
+  },
+    {
+      "item": "minecraft:white_concrete"
+    },
+    {
+      "item":"minecraft:white_dye"
+    }
+    ],
+
+  "result": {
+    "item":"neonlightsmod:white_neon_block"
+  },
+  "group": "newRecipes"}

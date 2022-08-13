@@ -1,0 +1,18 @@
+{
+  "type":"crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"minecraft:glow_ink_sac"
+    },
+    {
+      "item": "minecraft:pink_concrete"
+    },
+    {
+      "item":"minecraft:pink_dye"
+    }
+  ],
+
+  "result": {
+    "item":"neonlightsmod:pink_neon_block"
+  },
+  "group": "newRecipes"}

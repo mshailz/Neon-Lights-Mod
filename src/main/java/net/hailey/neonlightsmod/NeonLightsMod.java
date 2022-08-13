@@ -18,6 +18,7 @@ public class NeonLightsMod implements ModInitializer {
 			.icon(() -> new ItemStack(Items.SEA_LANTERN))
 			.appendItems(stacks -> {
 				stacks.add(new ItemStack(ModBlocks.WHITE_NEON_BLOCK));
+				stacks.add(new ItemStack(ModBlocks.PINK_NEON_BLOCK));
 
 			})
 			.build();

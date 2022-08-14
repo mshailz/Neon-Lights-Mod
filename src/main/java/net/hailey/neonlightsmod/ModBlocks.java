@@ -17,6 +17,11 @@ public class ModBlocks {
     public static final Block MAGENTA_NEON_BLOCK = new Block(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).luminance(15));
     public static final Block PURPLE_NEON_BLOCK = new Block(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).luminance(15));
     public static final Block BLUE_NEON_BLOCK = new Block(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).luminance(15));
+    public static final Block CYAN_NEON_BLOCK = new Block(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).luminance(15));
+    public static final Block LIGHT_BLUE_NEON_BLOCK = new Block(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).luminance(15));
+    public static final Block GREEN_NEON_BLOCK = new Block(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).luminance(15));
+    public static final Block YELLOW_NEON_BLOCK = new Block(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).luminance(15));
+    public static final Block ORANGE_NEON_BLOCK = new Block(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).luminance(15));
 
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "neon_frame_block"), NEON_FRAME_BLOCK);
@@ -27,5 +32,10 @@ public class ModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "magenta_neon_block"), MAGENTA_NEON_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "purple_neon_block"), PURPLE_NEON_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "blue_neon_block"), BLUE_NEON_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "cyan_neon_block"), CYAN_NEON_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "light_blue_neon_block"), LIGHT_BLUE_NEON_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "green_neon_block"), GREEN_NEON_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "yellow_neon_block"), YELLOW_NEON_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "orange_neon_block"), ORANGE_NEON_BLOCK);
     }
 }

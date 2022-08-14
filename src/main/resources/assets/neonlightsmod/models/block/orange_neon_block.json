@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "neonlightsmod:block/orange_neon_block"
+  }
+}

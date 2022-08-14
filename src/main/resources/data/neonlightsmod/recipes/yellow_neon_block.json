@@ -8,11 +8,11 @@
       "item": "neonlightsmod:neon_frame_block"
     },
     {
-      "item":"minecraft:pink_dye"
+      "item":"minecraft:yellow_dye"
     }
   ],
 
   "result": {
-    "item":"neonlightsmod:pink_neon_block"
+    "item":"neonlightsmod:yellow_neon_block"
   },
   "group": "newRecipes"}

@@ -7,5 +7,10 @@
   "block.neonlightsmod.hot_pink_neon_block": "Hot Pink Neon Block",
   "block.neonlightsmod.magenta_neon_block": "Magenta Neon Block",
   "block.neonlightsmod.purple_neon_block": "Purple Neon Block",
-  "block.neonlightsmod.blue_neon_block": "Blue Neon Block"
+  "block.neonlightsmod.blue_neon_block": "Blue Neon Block",
+  "block.neonlightsmod.cyan_neon_block": "Cyan Neon Block",
+  "block.neonlightsmod.light_blue_neon_block": "Light Blue Neon Block",
+  "block.neonlightsmod.green_neon_block": "Green Neon Block",
+  "block.neonlightsmod.yellow_neon_block": "Yellow Neon Block",
+  "block.neonlightsmod.orange_neon_block": "Orange Neon Block"
 }

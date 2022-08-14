@@ -4,7 +4,6 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,6 +24,11 @@ public class NeonLightsMod implements ModInitializer {
 				stacks.add(new ItemStack(ModBlocks.MAGENTA_NEON_BLOCK));
 				stacks.add(new ItemStack(ModBlocks.PURPLE_NEON_BLOCK));
 				stacks.add(new ItemStack(ModBlocks.BLUE_NEON_BLOCK));
+				stacks.add(new ItemStack(ModBlocks.CYAN_NEON_BLOCK));
+				stacks.add(new ItemStack(ModBlocks.LIGHT_BLUE_NEON_BLOCK));
+				stacks.add(new ItemStack(ModBlocks.GREEN_NEON_BLOCK));
+				stacks.add(new ItemStack(ModBlocks.YELLOW_NEON_BLOCK));
+				stacks.add(new ItemStack(ModBlocks.ORANGE_NEON_BLOCK));
 
 			})
 			.build();

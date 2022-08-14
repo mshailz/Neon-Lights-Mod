@@ -2,17 +2,17 @@
   "type":"crafting_shapeless",
   "ingredients": [
     {
-    "item":"minecraft:glow_ink_sac"
-  },
+      "item":"minecraft:glow_ink_sac"
+    },
     {
       "item": "neonlightsmod:neon_frame_block"
     },
     {
-      "item":"minecraft:white_dye"
+      "item":"minecraft:magenta_dye"
     }
-    ],
+  ],
 
   "result": {
-    "item":"neonlightsmod:white_neon_block"
+    "item":"neonlightsmod:magenta_neon_block"
   },
   "group": "newRecipes"}

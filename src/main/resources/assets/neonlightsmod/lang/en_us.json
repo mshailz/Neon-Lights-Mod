@@ -1,5 +1,11 @@
 {
   "itemGroup.neonlightsmod.general": "Neon Lights Mod",
+  "block.neonlightsmod.neon_frame_block": "Neon Frame",
   "block.neonlightsmod.white_neon_block": "White Neon Block",
-  "block.neonlightsmod.pink_neon_block": "Pink Neon Block"
+  "block.neonlightsmod.red_neon_block": "Red Neon Block",
+  "block.neonlightsmod.pink_neon_block": "Pink Neon Block",
+  "block.neonlightsmod.hot_pink_neon_block": "Hot Pink Neon Block",
+  "block.neonlightsmod.magenta_neon_block": "Magenta Neon Block",
+  "block.neonlightsmod.purple_neon_block": "Purple Neon Block",
+  "block.neonlightsmod.blue_neon_block": "Blue Neon Block"
 }

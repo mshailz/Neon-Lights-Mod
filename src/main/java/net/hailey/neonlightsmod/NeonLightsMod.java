@@ -15,10 +15,16 @@ public class NeonLightsMod implements ModInitializer {
 
 	public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.create(
 			new Identifier("neonlightsmod", "general"))
-			.icon(() -> new ItemStack(Items.SEA_LANTERN))
+			.icon(() -> new ItemStack(ModBlocks.WHITE_NEON_BLOCK))
 			.appendItems(stacks -> {
+				stacks.add(new ItemStack(ModBlocks.NEON_FRAME_BLOCK));
 				stacks.add(new ItemStack(ModBlocks.WHITE_NEON_BLOCK));
+				stacks.add(new ItemStack(ModBlocks.RED_NEON_BLOCK));
 				stacks.add(new ItemStack(ModBlocks.PINK_NEON_BLOCK));
+				stacks.add(new ItemStack(ModBlocks.HOT_PINK_NEON_BLOCK));
+				stacks.add(new ItemStack(ModBlocks.MAGENTA_NEON_BLOCK));
+				stacks.add(new ItemStack(ModBlocks.PURPLE_NEON_BLOCK));
+				stacks.add(new ItemStack(ModBlocks.BLUE_NEON_BLOCK));
 
 			})
 			.build();

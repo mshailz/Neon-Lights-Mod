@@ -6,7 +6,7 @@
   "name": "Neon Lights Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Hailey"
+    "mshailz/Hailerz"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,7 +14,7 @@
   },
 
   "license": "MIT License",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/neonlightsmod/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -30,9 +30,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.6",
+    "fabricloader": ">=0.14.19",
     "fabric": "*",
-    "minecraft": "~1.19",
+    "minecraft": "~1.19.4",
     "java": ">=17"
   },
   "suggests": {

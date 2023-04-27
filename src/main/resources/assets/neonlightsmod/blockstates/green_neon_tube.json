@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "neonlightsmod:block/green_neon_tube",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "neonlightsmod:block/green_neon_tube",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "neonlightsmod:block/green_neon_tube",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "neonlightsmod:block/green_neon_tube",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "neonlightsmod:block/green_neon_tube"
+    },
+    "facing=west": {
+      "model": "neonlightsmod:block/green_neon_tube",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

@@ -20,18 +20,54 @@ public class NeonLightsMod implements ModInitializer {
 			.entries((enabledFeatures, entries) -> {
 
 				entries.add(ModBlocks.NEON_FRAME_BLOCK);
+
+				//white
 				entries.add(ModBlocks.WHITE_NEON_BLOCK);
+				entries.add(ModBlocks.WHITE_NEON_TUBE);
+
+				//red
 				entries.add(ModBlocks.RED_NEON_BLOCK);
+				entries.add(ModBlocks.RED_NEON_TUBE);
+
+				//pink
 				entries.add(ModBlocks.PINK_NEON_BLOCK);
+				entries.add(ModBlocks.PINK_NEON_TUBE);
+
+				//hot pink
 				entries.add(ModBlocks.HOT_PINK_NEON_BLOCK);
+				entries.add(ModBlocks.HOT_PINK_NEON_TUBE);
+
+				//magenta
 				entries.add(ModBlocks.MAGENTA_NEON_BLOCK);
+				entries.add(ModBlocks.MAGENTA_NEON_TUBE);
+
+				//purple
 				entries.add(ModBlocks.PURPLE_NEON_BLOCK);
+				entries.add(ModBlocks.PURPLE_NEON_TUBE);
+
+				//blue
 				entries.add(ModBlocks.BLUE_NEON_BLOCK);
-				entries.add(ModBlocks.CYAN_NEON_BLOCK);
+				entries.add(ModBlocks.BLUE_NEON_TUBE);
+
+				//light blue
 				entries.add(ModBlocks.LIGHT_BLUE_NEON_BLOCK);
+				entries.add(ModBlocks.LIGHT_BLUE_NEON_TUBE);
+
+				//cyan
+				entries.add(ModBlocks.CYAN_NEON_BLOCK);
+				entries.add(ModBlocks.CYAN_NEON_TUBE);
+
+				//green
 				entries.add(ModBlocks.GREEN_NEON_BLOCK);
+				entries.add(ModBlocks.GREEN_NEON_TUBE);
+
+				//yellow
 				entries.add(ModBlocks.YELLOW_NEON_BLOCK);
+				entries.add(ModBlocks.YELLOW_NEON_TUBE);
+
+				//orange
 				entries.add(ModBlocks.ORANGE_NEON_BLOCK);
+				entries.add(ModBlocks.ORANGE_NEON_TUBE);
 			})
 			.build();
 

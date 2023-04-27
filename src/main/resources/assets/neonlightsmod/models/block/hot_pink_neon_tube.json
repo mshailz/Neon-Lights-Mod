@@ -1,0 +1,35 @@
+{
+  "credit": "Made by mshailz/Hailerz",
+  "parent": "block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "1": "neonlightsmod:block/hot_pink_neon_block",
+    "particle": "neonlightsmod:block/hot_pink_neon_block"
+  },
+  "elements": [
+    {
+      "from": [7, 0, 7],
+      "to": [9, 16, 9],
+      "faces": {
+        "north": {"uv": [0, 0, 2, 15], "texture": "#1"},
+        "east": {"uv": [0, 0, 2, 15], "texture": "#1"},
+        "south": {"uv": [0, 0, 2, 15], "texture": "#1"},
+        "west": {"uv": [0, 0, 2, 15], "texture": "#1"},
+        "up": {"uv": [2, 0, 4, 2], "texture": "#1", "cullface": "up"},
+        "down": {"uv": [2, 0, 4, 2], "texture": "#1", "cullface": "down"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "scale": [0.375, 0.375, 0.375]
+    },
+    "thirdperson_lefthand": {
+      "scale": [0.375, 0.375, 0.375]
+    },
+    "head": {
+      "rotation": [-60, 0, 0],
+      "translation": [0, 5, -9]
+    }
+  }
+}

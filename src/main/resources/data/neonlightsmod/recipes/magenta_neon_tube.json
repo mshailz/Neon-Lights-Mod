@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "neonlightsmod:magenta_neon_block"
+    }
+  },
+  "result": {
+    "item": "neonlightsmod:magenta_neon_tube",
+    "count": 3
+  }
+}

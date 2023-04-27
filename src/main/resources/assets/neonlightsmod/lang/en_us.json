@@ -12,5 +12,18 @@
   "block.neonlightsmod.light_blue_neon_block": "Light Blue Neon Block",
   "block.neonlightsmod.green_neon_block": "Green Neon Block",
   "block.neonlightsmod.yellow_neon_block": "Yellow Neon Block",
-  "block.neonlightsmod.orange_neon_block": "Orange Neon Block"
+  "block.neonlightsmod.orange_neon_block": "Orange Neon Block",
+
+  "block.neonlightsmod.white_neon_tube": "White Neon Tube",
+  "block.neonlightsmod.red_neon_tube": "Red Neon Tube",
+  "block.neonlightsmod.pink_neon_tube": "Pink Neon Tube",
+  "block.neonlightsmod.hot_pink_neon_tube": "Hot Pink Neon Tube",
+  "block.neonlightsmod.magenta_neon_tube": "Magenta Neon Tube",
+  "block.neonlightsmod.purple_neon_tube": "Purple Neon Tube",
+  "block.neonlightsmod.blue_neon_tube": "Blue Neon Tube",
+  "block.neonlightsmod.cyan_neon_tube": "Cyan Neon Tube",
+  "block.neonlightsmod.light_blue_neon_tube": "Light Blue Neon Tube",
+  "block.neonlightsmod.green_neon_tube": "Green Neon Tube",
+  "block.neonlightsmod.yellow_neon_tube": "Yellow Neon Tube",
+  "block.neonlightsmod.orange_neon_tube": "Orange Neon Tube"
 }

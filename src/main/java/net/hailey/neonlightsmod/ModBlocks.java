@@ -1,6 +1,7 @@
 package net.hailey.neonlightsmod;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.hailey.neonlightsmod.custom.FluorescentLights;
 import net.hailey.neonlightsmod.custom.NeonLightTubes;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -40,6 +41,32 @@ public class ModBlocks {
     public static final RodBlock YELLOW_NEON_TUBE = new NeonLightTubes( FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).luminance(15));
     public static final RodBlock ORANGE_NEON_TUBE = new NeonLightTubes( FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).luminance(15));
 
+    //fluorescent lights
+    public static final Block WHITE_FLUORESCENT_LIGHT
+            = new FluorescentLights(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15));
+    public static final Block RED_FLUORESCENT_LIGHT
+            = new FluorescentLights(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15));
+    public static final Block PINK_FLUORESCENT_LIGHT
+            = new FluorescentLights(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15));
+    public static final Block HOT_PINK_FLUORESCENT_LIGHT
+            = new FluorescentLights(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15));
+    public static final Block MAGENTA_FLUORESCENT_LIGHT
+            = new FluorescentLights(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15));
+    public static final Block PURPLE_FLUORESCENT_LIGHT
+            = new FluorescentLights(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15));
+    public static final Block BLUE_FLUORESCENT_LIGHT
+            = new FluorescentLights(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15));
+    public static final Block CYAN_FLUORESCENT_LIGHT
+            = new FluorescentLights(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15));
+    public static final Block LIGHT_BLUE_FLUORESCENT_LIGHT
+            = new FluorescentLights(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15));
+    public static final Block GREEN_FLUORESCENT_LIGHT
+            = new FluorescentLights(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15));
+    public static final Block YELLOW_FLUORESCENT_LIGHT
+            = new FluorescentLights(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15));
+    public static final Block ORANGE_FLUORESCENT_LIGHT
+            = new FluorescentLights(FabricBlockSettings.of(Material.GLASS).strength(0.3f, 1.5f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15));
+
 
     public static void registerBlocks() {
         //blocks
@@ -70,5 +97,19 @@ public class ModBlocks {
         Registry.register(Registries.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "green_neon_tube"), GREEN_NEON_TUBE);
         Registry.register(Registries.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "yellow_neon_tube"), YELLOW_NEON_TUBE);
         Registry.register(Registries.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "orange_neon_tube"), ORANGE_NEON_TUBE);
+
+        //fluorescent lights
+        Registry.register(Registries.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "white_fluorescent_light"), WHITE_FLUORESCENT_LIGHT);
+        Registry.register(Registries.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "red_fluorescent_light"), RED_FLUORESCENT_LIGHT);
+        Registry.register(Registries.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "pink_fluorescent_light"), PINK_FLUORESCENT_LIGHT);
+        Registry.register(Registries.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "hot_pink_fluorescent_light"), HOT_PINK_FLUORESCENT_LIGHT);
+        Registry.register(Registries.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "magenta_fluorescent_light"), MAGENTA_FLUORESCENT_LIGHT);
+        Registry.register(Registries.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "purple_fluorescent_light"), PURPLE_FLUORESCENT_LIGHT);
+        Registry.register(Registries.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "blue_fluorescent_light"), BLUE_FLUORESCENT_LIGHT);
+        Registry.register(Registries.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "cyan_fluorescent_light"), CYAN_FLUORESCENT_LIGHT);
+        Registry.register(Registries.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "light_blue_fluorescent_light"), LIGHT_BLUE_FLUORESCENT_LIGHT);
+        Registry.register(Registries.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "green_fluorescent_light"), GREEN_FLUORESCENT_LIGHT);
+        Registry.register(Registries.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "yellow_fluorescent_light"), YELLOW_FLUORESCENT_LIGHT);
+        Registry.register(Registries.BLOCK, new Identifier(NeonLightsMod.MOD_ID, "orange_fluorescent_light"), ORANGE_FLUORESCENT_LIGHT);
     }
 }

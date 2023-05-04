@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "neonlightsmod:block/pink_fluorescent_light",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "neonlightsmod:block/pink_fluorescent_light"
+    },
+    "facing=south": {
+      "model": "neonlightsmod:block/pink_fluorescent_light",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "neonlightsmod:block/pink_fluorescent_light",
+      "y": 270
+    }
+  }
+}

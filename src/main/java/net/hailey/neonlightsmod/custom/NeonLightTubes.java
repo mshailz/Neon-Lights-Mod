@@ -21,7 +21,7 @@ public class NeonLightTubes extends RodBlock {
     }
 
 
-
+//referenced from EndRodBlock
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
         Direction direction = ctx.getSide();

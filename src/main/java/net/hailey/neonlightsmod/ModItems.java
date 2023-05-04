@@ -7,6 +7,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+
     //blocks
     public static final BlockItem NEON_FRAME_BLOCK = new BlockItem(ModBlocks.NEON_FRAME_BLOCK, new Item.Settings());
     public static final BlockItem WHITE_NEON_BLOCK = new BlockItem(ModBlocks.WHITE_NEON_BLOCK, new Item.Settings());
@@ -22,6 +23,7 @@ public class ModItems {
     public static final BlockItem YELLOW_NEON_BLOCK = new BlockItem(ModBlocks.YELLOW_NEON_BLOCK, new Item.Settings());
     public static final BlockItem ORANGE_NEON_BLOCK = new BlockItem(ModBlocks.ORANGE_NEON_BLOCK, new Item.Settings());
 
+
     //tubes
     public static final BlockItem WHITE_NEON_TUBE = new BlockItem(ModBlocks.WHITE_NEON_TUBE, new Item.Settings());
     public static final BlockItem RED_NEON_TUBE = new BlockItem(ModBlocks.RED_NEON_TUBE, new Item.Settings());
@@ -35,6 +37,21 @@ public class ModItems {
     public static final BlockItem GREEN_NEON_TUBE = new BlockItem(ModBlocks.GREEN_NEON_TUBE, new Item.Settings());
     public static final BlockItem YELLOW_NEON_TUBE = new BlockItem(ModBlocks.YELLOW_NEON_TUBE, new Item.Settings());
     public static final BlockItem ORANGE_NEON_TUBE = new BlockItem(ModBlocks.ORANGE_NEON_TUBE, new Item.Settings());
+
+
+    //fluorescent lights
+    public static final BlockItem WHITE_FLUORESCENT_LIGHT = new BlockItem(ModBlocks.WHITE_FLUORESCENT_LIGHT, new Item.Settings());
+    public static final BlockItem RED_FLUORESCENT_LIGHT = new BlockItem(ModBlocks.RED_FLUORESCENT_LIGHT, new Item.Settings());
+    public static final BlockItem PINK_FLUORESCENT_LIGHT = new BlockItem(ModBlocks.PINK_FLUORESCENT_LIGHT, new Item.Settings());
+    public static final BlockItem HOT_PINK_FLUORESCENT_LIGHT = new BlockItem(ModBlocks.HOT_PINK_FLUORESCENT_LIGHT, new Item.Settings());
+    public static final BlockItem MAGENTA_FLUORESCENT_LIGHT = new BlockItem(ModBlocks.MAGENTA_FLUORESCENT_LIGHT, new Item.Settings());
+    public static final BlockItem PURPLE_FLUORESCENT_LIGHT = new BlockItem(ModBlocks.PURPLE_FLUORESCENT_LIGHT, new Item.Settings());
+    public static final BlockItem BLUE_FLUORESCENT_LIGHT = new BlockItem(ModBlocks.BLUE_FLUORESCENT_LIGHT, new Item.Settings());
+    public static final BlockItem CYAN_FLUORESCENT_LIGHT = new BlockItem(ModBlocks.CYAN_FLUORESCENT_LIGHT, new Item.Settings());
+    public static final BlockItem LIGHT_BLUE_FLUORESCENT_LIGHT = new BlockItem(ModBlocks.LIGHT_BLUE_FLUORESCENT_LIGHT, new Item.Settings());
+    public static final BlockItem GREEN_FLUORESCENT_LIGHT = new BlockItem(ModBlocks.GREEN_FLUORESCENT_LIGHT, new Item.Settings());
+    public static final BlockItem YELLOW_FLUORESCENT_LIGHT = new BlockItem(ModBlocks.YELLOW_FLUORESCENT_LIGHT, new Item.Settings());
+    public static final BlockItem ORANGE_FLUORESCENT_LIGHT = new BlockItem(ModBlocks.ORANGE_FLUORESCENT_LIGHT, new Item.Settings());
 
 
     public static void registerItems() {
@@ -66,6 +83,20 @@ public class ModItems {
         Registry.register(Registries.ITEM, new Identifier(NeonLightsMod.MOD_ID, "green_neon_tube"), GREEN_NEON_TUBE);
         Registry.register(Registries.ITEM, new Identifier(NeonLightsMod.MOD_ID, "yellow_neon_tube"), YELLOW_NEON_TUBE);
         Registry.register(Registries.ITEM, new Identifier(NeonLightsMod.MOD_ID, "orange_neon_tube"), ORANGE_NEON_TUBE);
+
+        //fluorescent lights
+        Registry.register(Registries.ITEM, new Identifier(NeonLightsMod.MOD_ID, "white_fluorescent_light"), WHITE_FLUORESCENT_LIGHT);
+        Registry.register(Registries.ITEM, new Identifier(NeonLightsMod.MOD_ID, "red_fluorescent_light"), RED_FLUORESCENT_LIGHT);
+        Registry.register(Registries.ITEM, new Identifier(NeonLightsMod.MOD_ID, "pink_fluorescent_light"), PINK_FLUORESCENT_LIGHT);
+        Registry.register(Registries.ITEM, new Identifier(NeonLightsMod.MOD_ID, "hot_pink_fluorescent_light"), HOT_PINK_FLUORESCENT_LIGHT);
+        Registry.register(Registries.ITEM, new Identifier(NeonLightsMod.MOD_ID, "magenta_fluorescent_light"), MAGENTA_FLUORESCENT_LIGHT);
+        Registry.register(Registries.ITEM, new Identifier(NeonLightsMod.MOD_ID, "purple_fluorescent_light"), PURPLE_FLUORESCENT_LIGHT);
+        Registry.register(Registries.ITEM, new Identifier(NeonLightsMod.MOD_ID, "blue_fluorescent_light"), BLUE_FLUORESCENT_LIGHT);
+        Registry.register(Registries.ITEM, new Identifier(NeonLightsMod.MOD_ID, "cyan_fluorescent_light"), CYAN_FLUORESCENT_LIGHT);
+        Registry.register(Registries.ITEM, new Identifier(NeonLightsMod.MOD_ID, "light_blue_fluorescent_light"), LIGHT_BLUE_FLUORESCENT_LIGHT);
+        Registry.register(Registries.ITEM, new Identifier(NeonLightsMod.MOD_ID, "green_fluorescent_light"), GREEN_FLUORESCENT_LIGHT);
+        Registry.register(Registries.ITEM, new Identifier(NeonLightsMod.MOD_ID, "yellow_fluorescent_light"), YELLOW_FLUORESCENT_LIGHT);
+        Registry.register(Registries.ITEM, new Identifier(NeonLightsMod.MOD_ID, "orange_fluorescent_light"), ORANGE_FLUORESCENT_LIGHT);
 
     }
 }

@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "neonlightsmod:purple_neon_block"
+    }
+  },
+  "result": {
+    "item": "neonlightsmod:purple_fluorescent_light",
+    "count": 3
+  }
+}
